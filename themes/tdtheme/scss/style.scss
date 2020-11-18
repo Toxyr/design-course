@@ -1,0 +1,28 @@
+@import '../../node_modules/normalize.css/normalize.css';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+$poppins-font: 'Poppins', sans-serif;
+$opensans-font: 'Open Sans', sans-serif;
+$primary-color: #000;
+
+@import 'tdth';
+
+* {
+    font-family: $poppins-font;
+    color: $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $opensans-font;
+    color: $primary-color;
+}
