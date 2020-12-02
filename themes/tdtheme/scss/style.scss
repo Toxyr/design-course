@@ -1,4 +1,4 @@
-@import '../../node_modules/normalize.css/normalize.css';
+@import '../../node_modules/normalize.css/normalize';
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
@@ -11,6 +11,8 @@ $opensans-font: 'Open Sans', sans-serif;
 $primary-color: #000;
 
 @import 'tdth';
+@import 'report';
+@import 'kmom';
 
 * {
     font-family: $poppins-font;
